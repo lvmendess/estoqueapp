@@ -1,0 +1,28 @@
+.root{
+    -fx-background-color:#f8dcc8;
+}
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+.button{
+    -fx-background-color: #0541D6;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 15px;
+    -fx-text-align: center;
+    -fx-text-color: white;
+    -fx-border-radius: 50px;
+    -fx-font-family: 'Poppins Medium';
+    -fx-font-weight: bold;
+    -fx-transition-duration: 4s;
+}
+
+.button:hover{
+    -fx-background-color: #0085F5;
+}
